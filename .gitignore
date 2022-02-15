@@ -32,10 +32,7 @@ build/
 ### VS Code ###
 .vscode/
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 2291671b1e85009bf232c880114092bfcdcaa2bb
 ### Eclipse ####
 .metadata
 
