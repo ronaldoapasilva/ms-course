@@ -2,7 +2,10 @@ package com.silvaronaldo.hrpayroll;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
+//comunicação de um projeto com outro @EnableFeignClients
+@EnableFeignClients
 @SpringBootApplication
 public class HrPayrollApplication {
 
