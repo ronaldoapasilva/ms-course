@@ -9,12 +9,9 @@ import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 
 @Configuration
 public class AppConfig {
-
 	
-	@Value("${jwt.secret}")
-	private String jwtSecret;
-	
-		
+	@Value("${jwt.secret:defaultValue}")
+	private String jwtSecret;	
 	
 	@Bean
 	public BCryptPasswordEncoder bCryptPasswordEncoder() { 
